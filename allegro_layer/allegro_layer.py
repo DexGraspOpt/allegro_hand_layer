@@ -8,7 +8,7 @@ import pytorch_kinematics as pk
 
 
 import sys
-sys.path.append('./')
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from layer_asset_utils import save_part_mesh, sample_points_on_mesh, sample_visible_points
 
 BASE_DIR = os.path.split(os.path.abspath(__file__))[0]
